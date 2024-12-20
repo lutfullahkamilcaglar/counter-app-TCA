@@ -39,16 +39,6 @@
 			path = VirdiZeban;
 			sourceTree = "<group>";
 		};
-		F5381DC92CE1029C00984D52 /* VirdiZebanTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VirdiZebanTests;
-			sourceTree = "<group>";
-		};
-		F5381DD32CE1029D00984D52 /* VirdiZebanUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VirdiZebanUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				F5381DB82CE1029B00984D52 /* VirdiZeban */,
-				F5381DC92CE1029C00984D52 /* VirdiZebanTests */,
-				F5381DD32CE1029D00984D52 /* VirdiZebanUITests */,
 				F5381DB72CE1029B00984D52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,9 +124,6 @@
 			dependencies = (
 				F5381DC82CE1029C00984D52 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F5381DC92CE1029C00984D52 /* VirdiZebanTests */,
-			);
 			name = VirdiZebanTests;
 			packageProductDependencies = (
 			);
@@ -158,9 +143,6 @@
 			);
 			dependencies = (
 				F5381DD22CE1029D00984D52 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F5381DD32CE1029D00984D52 /* VirdiZebanUITests */,
 			);
 			name = VirdiZebanUITests;
 			packageProductDependencies = (
